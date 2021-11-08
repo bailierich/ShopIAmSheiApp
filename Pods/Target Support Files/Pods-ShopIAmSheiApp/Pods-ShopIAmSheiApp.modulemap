@@ -1,0 +1,6 @@
+framework module Pods_ShopIAmSheiApp {
+  umbrella header "Pods-ShopIAmSheiApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

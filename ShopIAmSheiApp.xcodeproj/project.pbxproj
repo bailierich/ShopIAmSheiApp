@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52526B0D27376AF7006017FB /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B0C27376AF7006017FB /* InputTextField.swift */; };
+		52526B102737983B006017FB /* PreviewLayoutComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B0F2737983B006017FB /* PreviewLayoutComponent.swift */; };
+		52526B1227379DE3006017FB /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1127379DE3006017FB /* PasswordInputView.swift */; };
+		52526B142737A0A6006017FB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B132737A0A6006017FB /* ButtonView.swift */; };
+		52526B162737C8D1006017FB /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B152737C8D0006017FB /* ForgotPasswordView.swift */; };
+		52526B1927389668006017FB /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1827389667006017FB /* RegistrationDetails.swift */; };
+		52526B1C273897E9006017FB /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1B273897E8006017FB /* RegistrationService.swift */; };
+		52526B1F2738A4A3006017FB /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */; };
+		529DA7A62735BF1D003F99D8 /* ShopIAmSheiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */; };
+		529DA7A82735BF1D003F99D8 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DA7A72735BF1D003F99D8 /* MainScreenView.swift */; };
+		529DA7AA2735BF21003F99D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529DA7A92735BF21003F99D8 /* Assets.xcassets */; };
+		529DA7AD2735BF21003F99D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529DA7AC2735BF21003F99D8 /* Preview Assets.xcassets */; };
+		52A7E35E273674EE008E28C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52A7E35D273674EE008E28C8 /* GoogleService-Info.plist */; };
+		52B51FC0273617D300C5A93E /* coolvetica crammed rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B51FBA273617D300C5A93E /* coolvetica crammed rg.ttf */; };
+		52B51FC1273617D300C5A93E /* typodermic-eula-02-2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B51FBB273617D300C5A93E /* typodermic-eula-02-2014.pdf */; };
+		52B51FC2273617D300C5A93E /* coolvetica condensed rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B51FBC273617D300C5A93E /* coolvetica condensed rg.ttf */; };
+		52B51FC3273617D300C5A93E /* coolvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B51FBD273617D300C5A93E /* coolvetica.ttf */; };
+		52B51FC4273617D300C5A93E /* read-this.html in Resources */ = {isa = PBXBuildFile; fileRef = 52B51FBE273617D300C5A93E /* read-this.html */; };
+		52B51FC5273617D300C5A93E /* coolvetica compressed rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B51FBF273617D300C5A93E /* coolvetica compressed rg.ttf */; };
+		52B51FCA273621F800C5A93E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B51FC9273621F800C5A93E /* SignInView.swift */; };
+		52B51FCC273628D100C5A93E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B51FCB273628CD00C5A93E /* SignUpView.swift */; };
+		52BCE6F027369C6B00CA2B86 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BCE6EF27369C6A00CA2B86 /* AdSupport.framework */; };
+		7C08C6A8D5622CC2E1833F51 /* Pods_ShopIAmSheiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DDE4076398358A4AEF045C /* Pods_ShopIAmSheiApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14DDE4076398358A4AEF045C /* Pods_ShopIAmSheiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopIAmSheiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC9AC2E7F8DEC2865EC037F /* Pods-ShopIAmSheiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopIAmSheiApp.debug.xcconfig"; path = "Target Support Files/Pods-ShopIAmSheiApp/Pods-ShopIAmSheiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		52526B0C27376AF7006017FB /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		52526B0F2737983B006017FB /* PreviewLayoutComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutComponent.swift; sourceTree = "<group>"; };
+		52526B1127379DE3006017FB /* PasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
+		52526B132737A0A6006017FB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		52526B152737C8D0006017FB /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		52526B1827389667006017FB /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
+		52526B1B273897E8006017FB /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
+		52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		529DA7A22735BF1D003F99D8 /* ShopIAmSheiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopIAmSheiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopIAmSheiAppApp.swift; sourceTree = "<group>"; };
+		529DA7A72735BF1D003F99D8 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		529DA7A92735BF21003F99D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529DA7AC2735BF21003F99D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A7E35D273674EE008E28C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52B51FBA273617D300C5A93E /* coolvetica crammed rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coolvetica crammed rg.ttf"; sourceTree = "<group>"; };
+		52B51FBB273617D300C5A93E /* typodermic-eula-02-2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "typodermic-eula-02-2014.pdf"; sourceTree = "<group>"; };
+		52B51FBC273617D300C5A93E /* coolvetica condensed rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coolvetica condensed rg.ttf"; sourceTree = "<group>"; };
+		52B51FBD273617D300C5A93E /* coolvetica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coolvetica.ttf; sourceTree = "<group>"; };
+		52B51FBE273617D300C5A93E /* read-this.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "read-this.html"; sourceTree = "<group>"; };
+		52B51FBF273617D300C5A93E /* coolvetica compressed rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coolvetica compressed rg.ttf"; sourceTree = "<group>"; };
+		52B51FC627361BC000C5A93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B51FC9273621F800C5A93E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		52B51FCB273628CD00C5A93E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		52BCE6EF27369C6A00CA2B86 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C3E0F2DB78ABFEE9B1C0309C /* Pods-ShopIAmSheiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopIAmSheiApp.release.xcconfig"; path = "Target Support Files/Pods-ShopIAmSheiApp/Pods-ShopIAmSheiApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529DA79F2735BF1D003F99D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C08C6A8D5622CC2E1833F51 /* Pods_ShopIAmSheiApp.framework in Frameworks */,
+				52BCE6F027369C6B00CA2B86 /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F04AF970C4600C65DA92EB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9AC2E7F8DEC2865EC037F /* Pods-ShopIAmSheiApp.debug.xcconfig */,
+				C3E0F2DB78ABFEE9B1C0309C /* Pods-ShopIAmSheiApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52526B0627376858006017FB /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				52526B0727376865006017FB /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		52526B0727376865006017FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52B51FC9273621F800C5A93E /* SignInView.swift */,
+				52526B152737C8D0006017FB /* ForgotPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52526B0827376976006017FB /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				52526B1D2738A474006017FB /* ViewModel */,
+				52526B1A273897C5006017FB /* Service */,
+				52526B1727389621006017FB /* Model */,
+				52526B0927376981006017FB /* Views */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		52526B0927376981006017FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52B51FCB273628CD00C5A93E /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52526B0A27376A9C006017FB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				52526B0E2737980E006017FB /* Modifier */,
+				52526B0B27376AC5006017FB /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		52526B0B27376AC5006017FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52526B0C27376AF7006017FB /* InputTextField.swift */,
+				52526B1127379DE3006017FB /* PasswordInputView.swift */,
+				52526B132737A0A6006017FB /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52526B0E2737980E006017FB /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				52526B0F2737983B006017FB /* PreviewLayoutComponent.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		52526B1727389621006017FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52526B1827389667006017FB /* RegistrationDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52526B1A273897C5006017FB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				52526B1B273897E8006017FB /* RegistrationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		52526B1D2738A474006017FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		529DA7992735BF1D003F99D8 = {
+			isa = PBXGroup;
+			children = (
+				52B51FB9273617D300C5A93E /* coolvetica */,
+				529DA7A42735BF1D003F99D8 /* ShopIAmSheiApp */,
+				529DA7A32735BF1D003F99D8 /* Products */,
+				1F04AF970C4600C65DA92EB1 /* Pods */,
+				EA48FD84E0CF0CB33255C2EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		529DA7A32735BF1D003F99D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529DA7A22735BF1D003F99D8 /* ShopIAmSheiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529DA7A42735BF1D003F99D8 /* ShopIAmSheiApp */ = {
+			isa = PBXGroup;
+			children = (
+				52526B0A27376A9C006017FB /* Base */,
+				52526B0827376976006017FB /* Registration */,
+				52526B0627376858006017FB /* SignIn */,
+				529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */,
+				529DA7A72735BF1D003F99D8 /* MainScreenView.swift */,
+				529DA7A92735BF21003F99D8 /* Assets.xcassets */,
+				52B51FC627361BC000C5A93E /* Info.plist */,
+				52A7E35D273674EE008E28C8 /* GoogleService-Info.plist */,
+				529DA7AB2735BF21003F99D8 /* Preview Content */,
+			);
+			path = ShopIAmSheiApp;
+			sourceTree = "<group>";
+		};
+		529DA7AB2735BF21003F99D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				529DA7AC2735BF21003F99D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52B51FB9273617D300C5A93E /* coolvetica */ = {
+			isa = PBXGroup;
+			children = (
+				52B51FBA273617D300C5A93E /* coolvetica crammed rg.ttf */,
+				52B51FBB273617D300C5A93E /* typodermic-eula-02-2014.pdf */,
+				52B51FBC273617D300C5A93E /* coolvetica condensed rg.ttf */,
+				52B51FBD273617D300C5A93E /* coolvetica.ttf */,
+				52B51FBE273617D300C5A93E /* read-this.html */,
+				52B51FBF273617D300C5A93E /* coolvetica compressed rg.ttf */,
+			);
+			path = coolvetica;
+			sourceTree = "<group>";
+		};
+		EA48FD84E0CF0CB33255C2EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BCE6EF27369C6A00CA2B86 /* AdSupport.framework */,
+				14DDE4076398358A4AEF045C /* Pods_ShopIAmSheiApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529DA7A12735BF1D003F99D8 /* ShopIAmSheiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529DA7B02735BF21003F99D8 /* Build configuration list for PBXNativeTarget "ShopIAmSheiApp" */;
+			buildPhases = (
+				CC678B63C9E1356A73F20066 /* [CP] Check Pods Manifest.lock */,
+				529DA79E2735BF1D003F99D8 /* Sources */,
+				529DA79F2735BF1D003F99D8 /* Frameworks */,
+				529DA7A02735BF1D003F99D8 /* Resources */,
+				DB4CFEEBC6627310390E0A38 /* [CP] Embed Pods Frameworks */,
+				52BCE6EE273696A200CA2B86 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopIAmSheiApp;
+			productName = ShopIAmSheiApp;
+			productReference = 529DA7A22735BF1D003F99D8 /* ShopIAmSheiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529DA79A2735BF1D003F99D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					529DA7A12735BF1D003F99D8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 529DA79D2735BF1D003F99D8 /* Build configuration list for PBXProject "ShopIAmSheiApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529DA7992735BF1D003F99D8;
+			productRefGroup = 529DA7A32735BF1D003F99D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529DA7A12735BF1D003F99D8 /* ShopIAmSheiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529DA7A02735BF1D003F99D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B51FC4273617D300C5A93E /* read-this.html in Resources */,
+				529DA7AD2735BF21003F99D8 /* Preview Assets.xcassets in Resources */,
+				52A7E35E273674EE008E28C8 /* GoogleService-Info.plist in Resources */,
+				52B51FC3273617D300C5A93E /* coolvetica.ttf in Resources */,
+				52B51FC2273617D300C5A93E /* coolvetica condensed rg.ttf in Resources */,
+				529DA7AA2735BF21003F99D8 /* Assets.xcassets in Resources */,
+				52B51FC1273617D300C5A93E /* typodermic-eula-02-2014.pdf in Resources */,
+				52B51FC0273617D300C5A93E /* coolvetica crammed rg.ttf in Resources */,
+				52B51FC5273617D300C5A93E /* coolvetica compressed rg.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52BCE6EE273696A200CA2B86 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		CC678B63C9E1356A73F20066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopIAmSheiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4CFEEBC6627310390E0A38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopIAmSheiApp/Pods-ShopIAmSheiApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopIAmSheiApp/Pods-ShopIAmSheiApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopIAmSheiApp/Pods-ShopIAmSheiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529DA79E2735BF1D003F99D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52526B0D27376AF7006017FB /* InputTextField.swift in Sources */,
+				52526B1F2738A4A3006017FB /* RegistrationViewModel.swift in Sources */,
+				52526B1927389668006017FB /* RegistrationDetails.swift in Sources */,
+				52B51FCC273628D100C5A93E /* SignUpView.swift in Sources */,
+				52526B102737983B006017FB /* PreviewLayoutComponent.swift in Sources */,
+				52B51FCA273621F800C5A93E /* SignInView.swift in Sources */,
+				529DA7A82735BF1D003F99D8 /* MainScreenView.swift in Sources */,
+				52526B1227379DE3006017FB /* PasswordInputView.swift in Sources */,
+				52526B142737A0A6006017FB /* ButtonView.swift in Sources */,
+				52526B162737C8D1006017FB /* ForgotPasswordView.swift in Sources */,
+				529DA7A62735BF1D003F99D8 /* ShopIAmSheiAppApp.swift in Sources */,
+				52526B1C273897E9006017FB /* RegistrationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		529DA7AE2735BF21003F99D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		529DA7AF2735BF21003F99D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529DA7B12735BF21003F99D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC9AC2E7F8DEC2865EC037F /* Pods-ShopIAmSheiApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"ShopIAmSheiApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShopIAmSheiApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMainNibFile = MainScreenView;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twelveSevenDigital.ShopIAmSheiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		529DA7B22735BF21003F99D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E0F2DB78ABFEE9B1C0309C /* Pods-ShopIAmSheiApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"ShopIAmSheiApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShopIAmSheiApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMainNibFile = MainScreenView;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twelveSevenDigital.ShopIAmSheiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529DA79D2735BF1D003F99D8 /* Build configuration list for PBXProject "ShopIAmSheiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529DA7AE2735BF21003F99D8 /* Debug */,
+				529DA7AF2735BF21003F99D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529DA7B02735BF21003F99D8 /* Build configuration list for PBXNativeTarget "ShopIAmSheiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529DA7B12735BF21003F99D8 /* Debug */,
+				529DA7B22735BF21003F99D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529DA79A2735BF1D003F99D8 /* Project object */;
+}
