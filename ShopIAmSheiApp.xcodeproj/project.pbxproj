@@ -15,6 +15,8 @@
 		52526B1927389668006017FB /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1827389667006017FB /* RegistrationDetails.swift */; };
 		52526B1C273897E9006017FB /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1B273897E8006017FB /* RegistrationService.swift */; };
 		52526B1F2738A4A3006017FB /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */; };
+		52626AC6273A115400A711F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52626AC5273A115400A711F2 /* HomeView.swift */; };
+		52626AC8273A766500A711F2 /* ImagePickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52626AC7273A766500A711F2 /* ImagePickerComponent.swift */; };
 		529DA7A62735BF1D003F99D8 /* ShopIAmSheiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */; };
 		529DA7A82735BF1D003F99D8 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DA7A72735BF1D003F99D8 /* MainScreenView.swift */; };
 		529DA7AA2735BF21003F99D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529DA7A92735BF21003F99D8 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		52526B1827389667006017FB /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
 		52526B1B273897E8006017FB /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		52626AC5273A115400A711F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52626AC7273A766500A711F2 /* ImagePickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerComponent.swift; sourceTree = "<group>"; };
 		529DA7A22735BF1D003F99D8 /* ShopIAmSheiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopIAmSheiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopIAmSheiAppApp.swift; sourceTree = "<group>"; };
 		529DA7A72735BF1D003F99D8 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				52526B0F2737983B006017FB /* PreviewLayoutComponent.swift */,
+				52626AC7273A766500A711F2 /* ImagePickerComponent.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 				52B51FC627361BC000C5A93E /* Info.plist */,
 				52A7E35D273674EE008E28C8 /* GoogleService-Info.plist */,
 				529DA7AB2735BF21003F99D8 /* Preview Content */,
+				52626AC5273A115400A711F2 /* HomeView.swift */,
 			);
 			path = ShopIAmSheiApp;
 			sourceTree = "<group>";
@@ -380,7 +386,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52526B0D27376AF7006017FB /* InputTextField.swift in Sources */,
+				52626AC8273A766500A711F2 /* ImagePickerComponent.swift in Sources */,
 				52526B1F2738A4A3006017FB /* RegistrationViewModel.swift in Sources */,
+				52626AC6273A115400A711F2 /* HomeView.swift in Sources */,
 				52526B1927389668006017FB /* RegistrationDetails.swift in Sources */,
 				52B51FCC273628D100C5A93E /* SignUpView.swift in Sources */,
 				52526B102737983B006017FB /* PreviewLayoutComponent.swift in Sources */,

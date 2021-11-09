@@ -12,6 +12,10 @@ struct SignInView: View {
     
     @State private var isShowingForgotPasswordView = false
     @State private var isShowingSignUpView = false
+    @State private var isLoggedin = false
+    
+    @State var email = ""
+    @State var password = ""
     
     var body: some View {
         
@@ -39,11 +43,11 @@ struct SignInView: View {
             VStack(spacing: 10){
                 
             
-                InputTextField(text: .constant(""),
+                InputTextField(text: $email,
                            placeholder: "Email",
-                           keyboardType: .emailAddress)
+                           keyboardType: .emailAddress, fontSize: 30)
             
-                PasswordInputView(password: .constant(""), placeholder: "Password")
+                PasswordInputView(password: $password, placeholder: "Password", fontSize: 30)
                 
             HStack{
                 
@@ -61,9 +65,13 @@ struct SignInView: View {
             
             Spacer().frame(minHeight: 10, maxHeight: 20)
                 VStack{
-           
+
+                    //Login User With FirebaseAuth and Go To Home Page
+                    NavigationLink(destination: HomeView(), isActive: $isLoggedin){}
                     ButtonView(title: "Login") {
-                //TODO add code for login
+                        LoginUser()
+                        
+                        
             }
                     NavigationLink(destination: SignInView(), isActive: $isShowingSignUpView){}
                     Button(action: {isShowingSignUpView = true})
@@ -81,6 +89,25 @@ struct SignInView: View {
 }
             
     }
+}
+                                      
+private func LoginUser(){
+    
+    Auth.auth().signIn(withEmail: email, password: password) { result, err in
+        if let err = err {
+            print("Failed to Login User: ", err)
+            return
+        }
+        else{
+            
+            print("Successfully Logged In User: \(result?.user.uid ?? "")")
+            
+        
+                  
+                  isLoggedin = true
+        }
+    }
+                                    
 }
 
 struct SignInView_Previews: PreviewProvider {

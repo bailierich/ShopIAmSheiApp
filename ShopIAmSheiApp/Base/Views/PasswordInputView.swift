@@ -11,7 +11,7 @@ struct PasswordInputView: View {
     
     @Binding var password: String
     let placeholder: String
-    
+    let fontSize: CGFloat
     private let textFieldLeading: CGFloat = 30
     
     var body: some View {
@@ -25,7 +25,7 @@ struct PasswordInputView: View {
             .frame(maxWidth: screenWidth * 0.9, minHeight: 44)
             .padding(.leading,
                      textFieldLeading)
-            .font(.custom("coolvetica", size: 30))
+            .font(.custom("coolvetica", size: fontSize))
             .foregroundColor(.black)
             Divider().background(.black)
             .padding(.horizontal, 30)
@@ -35,7 +35,7 @@ struct PasswordInputView: View {
 
 struct PasswordInputView_Previews: PreviewProvider {
     static var previews: some View {
-        PasswordInputView(password: .constant(""), placeholder: "Password")
+        PasswordInputView(password: .constant(""), placeholder: "Password", fontSize: 30)
             .preview(with: "password input field ")
     }
 }
