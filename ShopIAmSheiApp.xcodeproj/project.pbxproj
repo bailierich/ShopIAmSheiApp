@@ -12,11 +12,17 @@
 		52526B1227379DE3006017FB /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1127379DE3006017FB /* PasswordInputView.swift */; };
 		52526B142737A0A6006017FB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B132737A0A6006017FB /* ButtonView.swift */; };
 		52526B162737C8D1006017FB /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B152737C8D0006017FB /* ForgotPasswordView.swift */; };
-		52526B1927389668006017FB /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1827389667006017FB /* RegistrationDetails.swift */; };
-		52526B1C273897E9006017FB /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1B273897E8006017FB /* RegistrationService.swift */; };
-		52526B1F2738A4A3006017FB /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */; };
 		52626AC6273A115400A711F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52626AC5273A115400A711F2 /* HomeView.swift */; };
 		52626AC8273A766500A711F2 /* ImagePickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52626AC7273A766500A711F2 /* ImagePickerComponent.swift */; };
+		52668BE3273E01FE005117AD /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BE2273E01FE005117AD /* UserInfo.swift */; };
+		52668BE5273E07D8005117AD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52668BE4273E07D8005117AD /* Launch Screen.storyboard */; };
+		52668BE7273E0B49005117AD /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BE6273E0B49005117AD /* UserViewModel.swift */; };
+		52668BEE273E61F6005117AD /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BED273E61F6005117AD /* FBKeys.swift */; };
+		52668BF0273E6213005117AD /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BEF273E6213005117AD /* FBUser.swift */; };
+		52668BF2273E6B0B005117AD /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BF1273E6B0B005117AD /* FBAuth.swift */; };
+		52668BF4273E6B71005117AD /* FBFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BF3273E6B71005117AD /* FBFirestore.swift */; };
+		52668BF6273E6BDE005117AD /* FBFirestoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BF5273E6BDE005117AD /* FBFirestoreError.swift */; };
+		52668BF8273E6E99005117AD /* FBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52668BF7273E6E99005117AD /* FBError.swift */; };
 		529DA7A62735BF1D003F99D8 /* ShopIAmSheiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */; };
 		529DA7A82735BF1D003F99D8 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DA7A72735BF1D003F99D8 /* MainScreenView.swift */; };
 		529DA7AA2735BF21003F99D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529DA7A92735BF21003F99D8 /* Assets.xcassets */; };
@@ -42,11 +48,17 @@
 		52526B1127379DE3006017FB /* PasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
 		52526B132737A0A6006017FB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		52526B152737C8D0006017FB /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
-		52526B1827389667006017FB /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
-		52526B1B273897E8006017FB /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
-		52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		52626AC5273A115400A711F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		52626AC7273A766500A711F2 /* ImagePickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerComponent.swift; sourceTree = "<group>"; };
+		52668BE2273E01FE005117AD /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		52668BE4273E07D8005117AD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		52668BE6273E0B49005117AD /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		52668BED273E61F6005117AD /* FBKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
+		52668BEF273E6213005117AD /* FBUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		52668BF1273E6B0B005117AD /* FBAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		52668BF3273E6B71005117AD /* FBFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBFirestore.swift; sourceTree = "<group>"; };
+		52668BF5273E6BDE005117AD /* FBFirestoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBFirestoreError.swift; sourceTree = "<group>"; };
+		52668BF7273E6E99005117AD /* FBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBError.swift; sourceTree = "<group>"; };
 		529DA7A22735BF1D003F99D8 /* ShopIAmSheiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopIAmSheiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopIAmSheiAppApp.swift; sourceTree = "<group>"; };
 		529DA7A72735BF1D003F99D8 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
@@ -108,9 +120,6 @@
 		52526B0827376976006017FB /* Registration */ = {
 			isa = PBXGroup;
 			children = (
-				52526B1D2738A474006017FB /* ViewModel */,
-				52526B1A273897C5006017FB /* Service */,
-				52526B1727389621006017FB /* Model */,
 				52526B0927376981006017FB /* Views */,
 			);
 			path = Registration;
@@ -152,33 +161,49 @@
 			path = Modifier;
 			sourceTree = "<group>";
 		};
-		52526B1727389621006017FB /* Model */ = {
+		52668BE8273E5EEC005117AD /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				52526B1827389667006017FB /* RegistrationDetails.swift */,
+				52668BEC273E6142005117AD /* Firestore */,
+				52668BE9273E5F30005117AD /* Auth */,
 			);
-			path = Model;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
-		52526B1A273897C5006017FB /* Service */ = {
+		52668BE9273E5F30005117AD /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				52526B1B273897E8006017FB /* RegistrationService.swift */,
+				52668BE6273E0B49005117AD /* UserViewModel.swift */,
+				52668BE2273E01FE005117AD /* UserInfo.swift */,
+				52668BF1273E6B0B005117AD /* FBAuth.swift */,
+				52668BF7273E6E99005117AD /* FBError.swift */,
 			);
-			path = Service;
+			path = Auth;
 			sourceTree = "<group>";
 		};
-		52526B1D2738A474006017FB /* ViewModel */ = {
+		52668BEC273E6142005117AD /* Firestore */ = {
 			isa = PBXGroup;
 			children = (
-				52526B1E2738A4A2006017FB /* RegistrationViewModel.swift */,
+				52668BED273E61F6005117AD /* FBKeys.swift */,
+				52668BEF273E6213005117AD /* FBUser.swift */,
+				52668BF3273E6B71005117AD /* FBFirestore.swift */,
+				52668BF5273E6BDE005117AD /* FBFirestoreError.swift */,
 			);
-			path = ViewModel;
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		52668BF9273E6FC6005117AD /* ClientFacing */ = {
+			isa = PBXGroup;
+			children = (
+				52626AC5273A115400A711F2 /* HomeView.swift */,
+			);
+			path = ClientFacing;
 			sourceTree = "<group>";
 		};
 		529DA7992735BF1D003F99D8 = {
 			isa = PBXGroup;
 			children = (
+				52668BE4273E07D8005117AD /* Launch Screen.storyboard */,
 				52B51FB9273617D300C5A93E /* coolvetica */,
 				529DA7A42735BF1D003F99D8 /* ShopIAmSheiApp */,
 				529DA7A32735BF1D003F99D8 /* Products */,
@@ -198,16 +223,17 @@
 		529DA7A42735BF1D003F99D8 /* ShopIAmSheiApp */ = {
 			isa = PBXGroup;
 			children = (
+				52668BF9273E6FC6005117AD /* ClientFacing */,
 				52526B0A27376A9C006017FB /* Base */,
 				52526B0827376976006017FB /* Registration */,
 				52526B0627376858006017FB /* SignIn */,
 				529DA7A52735BF1D003F99D8 /* ShopIAmSheiAppApp.swift */,
 				529DA7A72735BF1D003F99D8 /* MainScreenView.swift */,
 				529DA7A92735BF21003F99D8 /* Assets.xcassets */,
+				52668BE8273E5EEC005117AD /* Firebase */,
 				52B51FC627361BC000C5A93E /* Info.plist */,
 				52A7E35D273674EE008E28C8 /* GoogleService-Info.plist */,
 				529DA7AB2735BF21003F99D8 /* Preview Content */,
-				52626AC5273A115400A711F2 /* HomeView.swift */,
 			);
 			path = ShopIAmSheiApp;
 			sourceTree = "<group>";
@@ -311,6 +337,7 @@
 				529DA7AA2735BF21003F99D8 /* Assets.xcassets in Resources */,
 				52B51FC1273617D300C5A93E /* typodermic-eula-02-2014.pdf in Resources */,
 				52B51FC0273617D300C5A93E /* coolvetica crammed rg.ttf in Resources */,
+				52668BE5273E07D8005117AD /* Launch Screen.storyboard in Resources */,
 				52B51FC5273617D300C5A93E /* coolvetica compressed rg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,19 +413,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				52526B0D27376AF7006017FB /* InputTextField.swift in Sources */,
+				52668BF2273E6B0B005117AD /* FBAuth.swift in Sources */,
 				52626AC8273A766500A711F2 /* ImagePickerComponent.swift in Sources */,
-				52526B1F2738A4A3006017FB /* RegistrationViewModel.swift in Sources */,
 				52626AC6273A115400A711F2 /* HomeView.swift in Sources */,
-				52526B1927389668006017FB /* RegistrationDetails.swift in Sources */,
 				52B51FCC273628D100C5A93E /* SignUpView.swift in Sources */,
 				52526B102737983B006017FB /* PreviewLayoutComponent.swift in Sources */,
+				52668BEE273E61F6005117AD /* FBKeys.swift in Sources */,
 				52B51FCA273621F800C5A93E /* SignInView.swift in Sources */,
 				529DA7A82735BF1D003F99D8 /* MainScreenView.swift in Sources */,
 				52526B1227379DE3006017FB /* PasswordInputView.swift in Sources */,
 				52526B142737A0A6006017FB /* ButtonView.swift in Sources */,
+				52668BE7273E0B49005117AD /* UserViewModel.swift in Sources */,
+				52668BF4273E6B71005117AD /* FBFirestore.swift in Sources */,
+				52668BF8273E6E99005117AD /* FBError.swift in Sources */,
+				52668BE3273E01FE005117AD /* UserInfo.swift in Sources */,
+				52668BF6273E6BDE005117AD /* FBFirestoreError.swift in Sources */,
 				52526B162737C8D1006017FB /* ForgotPasswordView.swift in Sources */,
+				52668BF0273E6213005117AD /* FBUser.swift in Sources */,
 				529DA7A62735BF1D003F99D8 /* ShopIAmSheiAppApp.swift in Sources */,
-				52526B1C273897E9006017FB /* RegistrationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +571,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -573,6 +606,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

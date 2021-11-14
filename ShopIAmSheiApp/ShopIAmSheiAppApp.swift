@@ -21,10 +21,12 @@ struct ShopIAmSheiAppApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
+    var userInfo = UserInfo()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                MainScreenView()
+                MainScreenView().environmentObject(userInfo)
             }
             
         }

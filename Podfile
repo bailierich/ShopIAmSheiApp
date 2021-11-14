@@ -11,7 +11,9 @@ target 'ShopIAmSheiApp' do
 pod 'Firebase/Analytics'
 pod 'Firebase/Crashlytics'
 pod 'Firebase/Auth'
-pod 'Firebase/Database'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
+
 # or pod ‘Firebase/AnalyticsWithoutAdIdSupport’
 # for Analytics without IDFA collection capability
 

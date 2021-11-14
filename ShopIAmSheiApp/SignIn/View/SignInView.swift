@@ -14,10 +14,19 @@ struct SignInView: View {
     @State private var isShowingSignUpView = false
     @State private var isLoggedin = false
     
-    @State var email = ""
-    @State var password = ""
+    @EnvironmentObject var userInfo: UserInfo
+    @State var user: UserViewModel = UserViewModel()
+    
+    @State private var showAlert = false
+    @State private var authError: EmailAuthError?
+    
     
     var body: some View {
+        
+        let screenSize: CGRect = UIScreen.main.bounds
+        let screenHeight = screenSize.height
+      
+        let maxWidthDecimalSignInView = 0.9
         
         ZStack{
             
@@ -42,16 +51,25 @@ struct SignInView: View {
             
             VStack(spacing: 10){
                 
-            
-                InputTextField(text: $email,
+                if screenHeight <= 737 {
+                    InputTextField(text: self.$user.email,
                            placeholder: "Email",
-                           keyboardType: .emailAddress, fontSize: 30)
+                           keyboardType: .emailAddress, fontSize: 30
+                               , maxWidthDecimal: maxWidthDecimalSignInView,deviderSize: 50)
             
-                PasswordInputView(password: $password, placeholder: "Password", fontSize: 30)
+                    PasswordInputView(password: self.$user.password, placeholder: "Password", fontSize: 30, fieldSize: 44, deviderSize: 50)
+                }else{
+                    InputTextField(text: self.$user.email,
+                               placeholder: "Email",
+                               keyboardType: .emailAddress, fontSize: 30
+                                   , maxWidthDecimal: maxWidthDecimalSignInView,deviderSize: 30)
+                
+                    PasswordInputView(password: self.$user.password, placeholder: "Password", fontSize: 30, fieldSize: 44, deviderSize: 30)
+                }
                 
             HStack{
                 
-                Spacer().frame(minWidth: 50, maxWidth: 180)
+                Spacer().frame(minWidth: 50, maxWidth: 160)
                 
                 NavigationLink(destination: ForgotPasswordView(), isActive: $isShowingForgotPasswordView){}
                 Button(action: {isShowingForgotPasswordView = true})
@@ -73,7 +91,7 @@ struct SignInView: View {
                         
                         
             }
-                    NavigationLink(destination: SignInView(), isActive: $isShowingSignUpView){}
+                    NavigationLink(destination: SignUpView(), isActive: $isShowingSignUpView){}
                     Button(action: {isShowingSignUpView = true})
                     {
                         Text("Don't Have An Account? Sign Up")
@@ -93,20 +111,17 @@ struct SignInView: View {
                                       
 private func LoginUser(){
     
-    Auth.auth().signIn(withEmail: email, password: password) { result, err in
-        if let err = err {
-            print("Failed to Login User: ", err)
-            return
-        }
-        else{
-            
-            print("Successfully Logged In User: \(result?.user.uid ?? "")")
-            
-        
-                  
-                  isLoggedin = true
-        }
-    }
+    FBAuth.authenticate(withEmail: self.user.email,
+                                            password: self.user.password) { (result) in
+                                                switch result {
+                                                case .failure(let error):
+                                                    self.authError = error
+                                                    self.showAlert = true
+                                                case .success( _):
+                                                    print("Signed in")
+                                                    isLoggedin = true
+                                                }
+                        }
                                     
 }
 

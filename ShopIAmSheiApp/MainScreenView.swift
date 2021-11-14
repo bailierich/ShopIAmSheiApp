@@ -12,8 +12,20 @@ struct MainScreenView: View {
     
     @State private var isShowingLoginView = false
     @State private var isShowingSignUpView = false
+    @EnvironmentObject var userInfo: UserInfo
+    
     
     var body: some View {
+        
+        Group{
+        if userInfo.isUserAuthenticated == .signedIn {
+            HomeView()
+        }
+        }
+        .onAppear {
+            self.userInfo.configureFirebaseStateDidChange()
+        }
+            
         
       NavigationView{
           

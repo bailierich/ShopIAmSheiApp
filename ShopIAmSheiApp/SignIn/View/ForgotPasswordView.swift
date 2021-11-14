@@ -20,7 +20,7 @@ struct ForgotPasswordView: View {
             .padding(.bottom, 50)
             }
             VStack{
-        InputTextField(text: .constant(""), placeholder: "Enter Your Email", keyboardType: .emailAddress, fontSize: 30)
+                InputTextField(text: .constant(""), placeholder: "Enter Your Email", keyboardType: .emailAddress, fontSize: 30, maxWidthDecimal: 0.9, deviderSize: 30)
                     .padding(.bottom, 30)
             }
             VStack{

@@ -14,7 +14,8 @@ struct InputTextField: View {
     let placeholder: String
     let keyboardType: UIKeyboardType
     let fontSize: CGFloat
-    
+    let maxWidthDecimal: Double
+    let deviderSize: CGFloat
     
     private let textFieldLeading: CGFloat = 30
     
@@ -26,14 +27,14 @@ struct InputTextField: View {
         VStack{
             
             TextField(placeholder, text: $text)
-            .frame(maxWidth: screenWidth * 0.9, minHeight: 44)
+            .frame(maxWidth: screenWidth * maxWidthDecimal, minHeight: 22)
             .padding(.leading,
                      textFieldLeading)
             .keyboardType(keyboardType)
             .font(.custom("coolvetica", size: fontSize))
             .foregroundColor(.black)
             Divider().background(.black)
-            .padding(.horizontal, 30)
+            .padding(.horizontal, deviderSize)
                 
         
         }
@@ -44,7 +45,7 @@ struct InputTextField_Previews: PreviewProvider {
     
     static var previews: some View {
         
-        InputTextField(text: .constant(""), placeholder: "Email", keyboardType: .emailAddress, fontSize: 30)
+        InputTextField(text: .constant(""), placeholder: "Email", keyboardType: .emailAddress, fontSize: 30, maxWidthDecimal: 0.9, deviderSize: 30)
             .preview(with: "text input")
     }
 }
