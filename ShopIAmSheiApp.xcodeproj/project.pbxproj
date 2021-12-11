@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5223863C276516C3000D124C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5223863B276516C3000D124C /* SDWebImageSwiftUI */; };
 		52526B0D27376AF7006017FB /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B0C27376AF7006017FB /* InputTextField.swift */; };
 		52526B102737983B006017FB /* PreviewLayoutComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B0F2737983B006017FB /* PreviewLayoutComponent.swift */; };
 		52526B1227379DE3006017FB /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52526B1127379DE3006017FB /* PasswordInputView.swift */; };
@@ -83,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5223863C276516C3000D124C /* SDWebImageSwiftUI in Frameworks */,
 				7C08C6A8D5622CC2E1833F51 /* Pods_ShopIAmSheiApp.framework in Frameworks */,
 				52BCE6F027369C6B00CA2B86 /* AdSupport.framework in Frameworks */,
 			);
@@ -98,6 +100,13 @@
 				C3E0F2DB78ABFEE9B1C0309C /* Pods-ShopIAmSheiApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		52521F8227410DFB00719282 /* AdminFacing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AdminFacing;
 			sourceTree = "<group>";
 		};
 		52526B0627376858006017FB /* SignIn */ = {
@@ -223,6 +232,7 @@
 		529DA7A42735BF1D003F99D8 /* ShopIAmSheiApp */ = {
 			isa = PBXGroup;
 			children = (
+				52521F8227410DFB00719282 /* AdminFacing */,
 				52668BF9273E6FC6005117AD /* ClientFacing */,
 				52526B0A27376A9C006017FB /* Base */,
 				52526B0827376976006017FB /* Registration */,
@@ -287,6 +297,9 @@
 			dependencies = (
 			);
 			name = ShopIAmSheiApp;
+			packageProductDependencies = (
+				5223863B276516C3000D124C /* SDWebImageSwiftUI */,
+			);
 			productName = ShopIAmSheiApp;
 			productReference = 529DA7A22735BF1D003F99D8 /* ShopIAmSheiApp.app */;
 			productType = "com.apple.product-type.application";
@@ -315,6 +328,9 @@
 				Base,
 			);
 			mainGroup = 529DA7992735BF1D003F99D8;
+			packageReferences = (
+				5223863A276516C2000D124C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 529DA7A32735BF1D003F99D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -645,6 +661,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5223863A276516C2000D124C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5223863B276516C3000D124C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5223863A276516C2000D124C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 529DA79A2735BF1D003F99D8 /* Project object */;
 }
